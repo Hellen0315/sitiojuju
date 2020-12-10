@@ -7,8 +7,8 @@ import video from './video/juju.mp4'
 class App extends Component{
   render () {
     return (
-      <div className='App'>
-      <video src={video} width='60%'  height='60%' controls ></video>
+    <div className='App'>
+      <video src={video} className='video' controls ></video>
       <img className="imagen" src={tarjeta} alt="Tarjeta" />
     </div>
     )

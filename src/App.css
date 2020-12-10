@@ -1,15 +1,40 @@
 .App {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 90%;
   padding: 10px;
   margin: 10px;
 }
-.imagen{
-  width: 60%;
-  height: 60%;
+.imagen {
+  max-width: 35%;
+  height: auto;
   padding: 10px;
   margin: 10px;
 
+}
+.video {
+  max-width: 25%;
+  height: auto;
+}
+
+@media (max-width: 480px){
+  .App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .imagen {
+    max-width: 55%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+  
+  }
+  .video {
+    max-width: 60%;
+    height: auto;
+  }
 }
