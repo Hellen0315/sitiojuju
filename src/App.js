@@ -8,7 +8,7 @@ class App extends Component{
   render () {
     return (
       <div className='App'>
-      <video src={video} width='50%'  height='50%' controls ></video>
+      <video src={video} width='60%'  height='60%' controls ></video>
       <img className="imagen" src={tarjeta} alt="Tarjeta" />
     </div>
     )
