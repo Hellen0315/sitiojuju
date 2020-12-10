@@ -9,7 +9,7 @@ class App extends Component{
     return (
       <div className='App'>
       <video src={video} width='20%'  height='20%' controls ></video>
-     <img className="imagen" src={tarjeta} />
+      <img className="imagen" src={tarjeta} />
     </div>
     )
   }
